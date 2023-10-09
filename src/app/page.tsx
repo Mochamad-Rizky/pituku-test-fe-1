@@ -7,6 +7,7 @@ import Supplier from "@/components/Supplier";
 import IndustryServices from "@/components/IndustryServices";
 import OurClient from "@/components/OurClient";
 import FAQ from "@/components/FAQ";
+import UpToDateNews from "@/components/UpToDateNews";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <IndustryServices />
       <OurClient />
       <FAQ />
+      <UpToDateNews />
     </main>
   );
 }
