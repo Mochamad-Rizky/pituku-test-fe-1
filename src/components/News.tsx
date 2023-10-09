@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 type NewsItem = {
   id: string;
@@ -22,7 +23,7 @@ export default async function News() {
   const data = await getNews();
 
   return (
-    <div className="mt-10 grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-4">
+    <div className="mt-10 grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4">
       {data.map((item) => (
         <article key={item.id}>
           <Image
@@ -32,9 +33,12 @@ export default async function News() {
             src={item.cover}
             alt={item.title}
           />
-          <h1 className="mt-3 text-center text-lg font-bold lg:text-left">
+          <Link
+            href={`/news/${item.id}`}
+            className="mt-3 inline-block text-center text-lg font-bold lg:text-left"
+          >
             {item.title}
-          </h1>
+          </Link>
           <p className="mt-4 text-center text-gray-400 lg:text-left">
             {new Date(item.createdAt).toLocaleDateString("id-ID", {
               weekday: "long",
