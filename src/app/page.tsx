@@ -8,6 +8,8 @@ import IndustryServices from "@/components/IndustryServices";
 import OurClient from "@/components/OurClient";
 import FAQ from "@/components/FAQ";
 import UpToDateNews from "@/components/UpToDateNews";
+import Exposure from "@/components/Exposure";
+import JoinWithUs from "@/components/JoinWithUs";
 
 export default function Home() {
   return (
@@ -22,6 +24,8 @@ export default function Home() {
       <OurClient />
       <FAQ />
       <UpToDateNews />
+      <Exposure />
+      <JoinWithUs />
     </main>
   );
 }
