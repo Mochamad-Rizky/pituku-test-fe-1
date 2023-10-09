@@ -20,14 +20,16 @@ export default function Hero() {
         <div className="relative mx-auto flex w-full max-w-screen-xl justify-center px-5 lg:px-10">
           <div className="flex w-1/2 items-center justify-end lg:w-full">
             <Image
-              height={256}
-              width={593}
+              priority
               src={leftImageHero}
               alt="left-hero"
               className="w-full"
             />
           </div>
-          <button className=" absolute left-1/2 top-1/2 z-[2] w-10 -translate-x-1/2 -translate-y-1/2 transform rounded-full border-4 border-white bg-pituku-primary p-0.5 sm:w-14 md:w-16 lg:w-20 lg:border-8">
+          <button
+            aria-label="rotate"
+            className=" absolute left-1/2 top-1/2 z-[2] w-10 -translate-x-1/2 -translate-y-1/2 transform rounded-full border-4 border-white bg-pituku-primary p-0.5 sm:w-14 md:w-16 lg:w-20 lg:border-8"
+          >
             <span className="text-white">
               <svg
                 stroke="currentColor"
@@ -44,13 +46,15 @@ export default function Hero() {
           </button>
           <div className="relative flex w-1/2 items-center lg:w-full">
             <Image
-              height={256}
-              width={593}
+              priority
               src={rightImageHero}
               alt="right-hero"
               className="w-full"
             />
-            <button className="absolute -bottom-5 right-8 z-[3] flex h-10 w-10 items-center justify-center rounded-full border-4 border-white bg-green-600 p-2 shadow-lg md:-bottom-7 md:right-6 md:h-16 md:w-16 md:border-8">
+            <button
+              aria-label="play video"
+              className="absolute -bottom-5 right-8 z-[3] flex h-10 w-10 items-center justify-center rounded-full border-4 border-white bg-green-600 p-2 shadow-lg md:-bottom-7 md:right-6 md:h-16 md:w-16 md:border-8"
+            >
               <svg
                 width="40"
                 height="40"

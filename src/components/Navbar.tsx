@@ -77,7 +77,7 @@ export default function Navbar() {
                   <ActiveLink
                     activeClassName="font-bold text-pituku-primary "
                     className={cn(
-                      "hover:text-pituku-primary text-black transition-[color] duration-300 lg:visible",
+                      "text-black transition-[color] duration-300 hover:text-pituku-primary lg:visible",
                       !isMenuOpen && "invisible",
                     )}
                     href="/"
@@ -89,10 +89,10 @@ export default function Navbar() {
                   <ActiveLink
                     activeClassName="font-bold text-pituku-primary "
                     className={cn(
-                      "hover:text-pituku-primary text-black transition-[color] duration-300 lg:visible",
+                      "text-black transition-[color] duration-300 hover:text-pituku-primary lg:visible",
                       !isMenuOpen && "invisible",
                     )}
-                    href="/about-us"
+                    href="#"
                   >
                     Tentang Kami
                   </ActiveLink>
@@ -101,10 +101,10 @@ export default function Navbar() {
                   <ActiveLink
                     activeClassName="font-bold text-pituku-primary lg:visible"
                     className={cn(
-                      "hover:text-pituku-primary transition-[color] duration-300 lg:visible",
+                      "transition-[color] duration-300 hover:text-pituku-primary lg:visible",
                       !isMenuOpen && "invisible",
                     )}
-                    href="/fasilitas"
+                    href="#"
                   >
                     Fasilitas
                   </ActiveLink>
@@ -113,10 +113,10 @@ export default function Navbar() {
                   <ActiveLink
                     activeClassName="font-bold text-pituku-primary lg:visible"
                     className={cn(
-                      "hover:text-pituku-primary transition-[color] duration-300 lg:visible",
+                      "transition-[color] duration-300 hover:text-pituku-primary lg:visible",
                       !isMenuOpen && "invisible",
                     )}
-                    href="/catalogue"
+                    href="#"
                   >
                     Katalog
                   </ActiveLink>
@@ -125,10 +125,10 @@ export default function Navbar() {
                   <ActiveLink
                     activeClassName="font-bold text-pituku-primary lg:visible"
                     className={cn(
-                      "hover:text-pituku-primary transition-[color] duration-300 lg:visible",
+                      "transition-[color] duration-300 hover:text-pituku-primary lg:visible",
                       !isMenuOpen && "invisible",
                     )}
-                    href="/article"
+                    href="#"
                   >
                     Artikel
                   </ActiveLink>
@@ -137,10 +137,10 @@ export default function Navbar() {
                   <ActiveLink
                     activeClassName="font-bold text-pituku-primary lg:visible"
                     className={cn(
-                      "hover:text-pituku-primary transition-[color] duration-300 lg:visible",
+                      "transition-[color] duration-300 hover:text-pituku-primary lg:visible",
                       !isMenuOpen && "invisible",
                     )}
-                    href="/contact"
+                    href="#"
                   >
                     Kontak
                   </ActiveLink>
@@ -181,7 +181,7 @@ export default function Navbar() {
                   <Link
                     href="/"
                     className={cn(
-                      "hover:text-pituku-primary inline-block py-3 pr-0 text-left text-black transition-[color] duration-300 lg:visible xl:pr-3",
+                      "inline-block py-3 pr-0 text-left text-black transition-[color] duration-300 hover:text-pituku-primary lg:visible xl:pr-3",
                       !isMenuOpen && "invisible",
                     )}
                   >
@@ -192,7 +192,7 @@ export default function Navbar() {
                   <Link
                     href="/"
                     className={cn(
-                      "bg-pituku-primary inline-block rounded-full px-7 py-2.5 text-center text-white transition-[background-color] duration-300 hover:bg-gray-400 lg:visible xl:px-12",
+                      "inline-block rounded-full bg-pituku-primary px-7 py-2.5 text-center text-white transition-[background-color] duration-300 hover:bg-gray-400 lg:visible xl:px-12",
                       !isMenuOpen && "invisible",
                     )}
                   >
@@ -204,6 +204,7 @@ export default function Navbar() {
           </div>
         </div>
         <button
+          aria-label="hamburger menu"
           className="mr-6 block lg:hidden"
           onClick={() => {
             setIsMenuOpen(true);

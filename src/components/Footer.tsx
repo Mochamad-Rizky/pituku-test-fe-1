@@ -32,7 +32,7 @@ export default function Footer() {
 
           <ul className="mt-10 flex gap-7 lg:mt-5 lg:gap-4">
             <li>
-              <Link href="/">
+              <Link aria-label="facebook" href="/">
                 <svg
                   width="25"
                   height="25"
@@ -59,7 +59,7 @@ export default function Footer() {
               </Link>
             </li>
             <li>
-              <Link href="/">
+              <Link aria-label="whatsapp" href="/">
                 <svg
                   width="25"
                   height="25"
@@ -86,7 +86,7 @@ export default function Footer() {
               </Link>
             </li>
             <li>
-              <Link href="/">
+              <Link aria-label="instagram" href="/">
                 <svg
                   width="25"
                   height="25"
