@@ -9,7 +9,9 @@ export default function FAQ() {
   return (
     <section className="pb-16 pt-10">
       <MaxWidthWrapper className="px-5">
-        <h2 className="text-md text-center font-bold lg:text-lg">FAQ&apos;s</h2>
+        <h2 className="text-md px-4 text-center font-extrabold lg:text-4xl">
+          FAQ&apos;s
+        </h2>
         <p className="lg:text-md mt-6 text-center text-sm">
           Punya pertanyaan atau butuh bantuan?
         </p>
