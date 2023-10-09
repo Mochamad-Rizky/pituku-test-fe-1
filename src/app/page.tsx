@@ -6,6 +6,7 @@ import Benefits from "@/components/Benefits";
 import Supplier from "@/components/Supplier";
 import IndustryServices from "@/components/IndustryServices";
 import OurClient from "@/components/OurClient";
+import FAQ from "@/components/FAQ";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Supplier />
       <IndustryServices />
       <OurClient />
+      <FAQ />
     </main>
   );
 }
