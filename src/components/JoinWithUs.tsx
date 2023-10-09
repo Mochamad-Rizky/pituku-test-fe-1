@@ -17,7 +17,7 @@ export default function JoinWithUs() {
         <div className="mt-10 flex justify-center lg:mt-20">
           <Link
             href="/"
-            className="mx-auto inline-block rounded-full bg-white px-8 py-3 font-bold text-black"
+            className="mx-auto inline-block rounded-full bg-white px-8 py-3 text-sm font-bold text-black"
           >
             Daftar
           </Link>
