@@ -27,12 +27,12 @@ export default function Hero() {
               className="w-full"
             />
           </div>
-          <button className=" bg-pituku-primary absolute left-1/2 top-1/2 z-[2] w-10 -translate-x-1/2 -translate-y-1/2 transform rounded-full border-4 border-white p-0.5 sm:w-14 md:w-16 lg:w-20 lg:border-8">
+          <button className=" absolute left-1/2 top-1/2 z-[2] w-10 -translate-x-1/2 -translate-y-1/2 transform rounded-full border-4 border-white bg-pituku-primary p-0.5 sm:w-14 md:w-16 lg:w-20 lg:border-8">
             <span className="text-white">
               <svg
                 stroke="currentColor"
                 fill="currentColor"
-                stroke-width="0"
+                strokeWidth="0"
                 viewBox="0 0 24 24"
                 height="100%"
                 width="100%"
@@ -60,8 +60,8 @@ export default function Hero() {
               >
                 <path
                   opacity="0.3"
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
+                  fillRule="evenodd"
+                  clipRule="evenodd"
                   d="M22.9876 10.7709L37.2933 18.8179C39.0355 19.7978 40.4783 20.6094 41.5518 21.3499C42.6324 22.0954 43.6625 22.978 44.2253 24.227C45.0199 25.9903 45.0199 28.0098 44.2253 29.7732C43.6625 31.0222 42.6324 31.9048 41.5518 32.6502C40.4783 33.3908 39.0354 34.2024 37.2932 35.1823L22.9876 43.2292C21.3052 44.1756 19.9077 44.9617 18.7506 45.4798C17.5808 46.0034 16.3248 46.4137 14.9918 46.263C13.1014 46.0493 11.3889 45.0478 10.2758 43.5049C9.49098 42.417 9.23279 41.1211 9.11573 39.8448C8.99993 38.5824 8.99996 36.9789 9 35.0486V18.9515C8.99996 17.0212 8.99993 15.4178 9.11573 14.1553C9.23279 12.879 9.49098 11.5831 10.2758 10.4952C11.3889 8.95234 13.1014 7.95081 14.9918 7.73711C16.3248 7.58642 17.5808 7.99671 18.7506 8.52039C19.9077 9.03841 21.3052 9.82456 22.9876 10.7709Z"
                   fill="#F2FAF9"
                 ></path>

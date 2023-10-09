@@ -39,7 +39,7 @@ export default function OurClient() {
               </li>
             </ul>
           </div>
-          <div className="hidden w-full lg:flex lg:w-1/2 lg:justify-center">
+          <div className="hidden w-full lg:flex lg:w-1/2 lg:justify-end">
             <Image
               className="w-full max-w-lg"
               src={clientContainer}

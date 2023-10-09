@@ -19,7 +19,7 @@ export default function PriceHistory() {
         <div className="mt-10 flex justify-center">
           <Link
             href="/"
-            className="bg-pituku-primary mx-auto inline-block rounded-full px-5 py-3 font-bold text-white"
+            className="mx-auto inline-block rounded-full bg-pituku-primary px-5 py-3 font-bold text-white"
           >
             Bergabung Sekarang
           </Link>
@@ -27,7 +27,7 @@ export default function PriceHistory() {
 
         <div className="mt-16 rounded-md p-3  shadow-2xl">
           <h3 className="font-medium">Statistik Harga PET Bening/Kg</h3>
-          <p className="text-sm">
+          <p className="text-sm text-gray-500">
             Lihat harga berbagai jenis sampah lainnya dengan menjadi Supplier
             Pituku
           </p>
