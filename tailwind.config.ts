@@ -10,6 +10,7 @@ const config: Config = {
     extend: {
       backgroundImage: {
         "benefits-bg": "url('/static/images/benefits/benefits_banner.png')",
+        "join-bg": "url('/static/images/join-with-us/background-join.png')",
       },
       colors: {
         "pituku-primary": "#7ACCC3",
