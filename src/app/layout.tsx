@@ -3,6 +3,7 @@ import React from "react";
 import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 const inter = Montserrat({
   weight: ["300", "400", "500", "600", "700", "800"],
@@ -25,6 +26,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );

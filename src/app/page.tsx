@@ -10,7 +10,6 @@ import FAQ from "@/components/FAQ";
 import UpToDateNews from "@/components/UpToDateNews";
 import Exposure from "@/components/Exposure";
 import JoinWithUs from "@/components/JoinWithUs";
-import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -27,7 +26,6 @@ export default function Home() {
       <UpToDateNews />
       <Exposure />
       <JoinWithUs />
-      <Footer />
     </main>
   );
 }
